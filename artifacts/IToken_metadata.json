@@ -1,0 +1,65 @@
+{
+	"compiler": {
+		"version": "0.8.29+commit.ab55807c"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "account",
+						"type": "address"
+					}
+				],
+				"name": "balanceOf",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"CustomGovernor.sol": "IToken"
+		},
+		"evmVersion": "cancun",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"CustomGovernor.sol": {
+			"keccak256": "0x6526d2894e6ca40563518b1b1e165c36f02630dfc1e1b02b45009da2eaf5583e",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://abb6ae081fc319a8d3fe5aa201cb9f54fa6322a9151de9570a3b45cd66d98cda",
+				"dweb:/ipfs/QmdU27W4aAgux1uyUnnEuq4mcQ4RV9C69rL4kXUNGYGAEU"
+			]
+		}
+	},
+	"version": 1
+}
